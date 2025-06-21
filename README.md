@@ -1,12 +1,74 @@
-# React + Vite
+# 📱 Scrollable Video Feed App (Like Reels / Shorts)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-screen vertical scrollable video feed built with **React.js** and **Vite**, mimicking the behavior of Instagram Reels or YouTube Shorts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎥 Full-screen auto-playing video feed
+- 🔁 Scroll-to-play with IntersectionObserver
+- 🔇 Muted videos by default with tap to play/pause
+- 📌 Video overlay UI:
+  - Hashtag
+  - Creator name + Follow button
+  - Title + Episode tag
+  - Description (3-line clamp)
+  - Like, Comment, Share, Tip, and Menu icons
+- 📱 Responsive design for mobile, tablet, and desktop
+- 🧭 Bottom navigation bar with dummy links
+- 📄 Mock JSON data with simulated API delay
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+/public
+└── /data/videos.json # Mock video feed data
+/src
+├── /components
+│ ├── VideoCard.jsx # Renders each video and overlay
+│ └── BottomNav.jsx # Bottom navigation bar
+├── /styles
+│ ├── App.css
+│ ├── VideoCard.css
+│ └── BottomNav.css
+├── App.jsx # Main app logic (scroll, load, render)
+└── main.jsx # React DOM entry
+
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 16
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/Khaleeq01/STRMLY-Task.git
+cd short-video-app
+npm install
+npm run dev
+
+Then open: http://localhost:5173
+
+🧩 Tech Stack
+React.js
+
+Vite
+
+HTML5 <video> element
+
+CSS Modules
+
+React Icons
+
+Intersection Observer API
+
+👤 Author
+Mohd Khaleeq
+
