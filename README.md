@@ -19,25 +19,6 @@ A full-screen vertical scrollable video feed built with **React.js** and **Vite*
 - 🧭 Bottom navigation bar with dummy links
 - 📄 Mock JSON data with simulated API delay
 
----
-
-## 📂 Project Structure
-
-/public
-└── /data/videos.json # Mock video feed data
-/src
-├── /components
-│ ├── VideoCard.jsx # Renders each video and overlay
-│ └── BottomNav.jsx # Bottom navigation bar
-├── /styles
-│ ├── App.css
-│ ├── VideoCard.css
-│ └── BottomNav.css
-├── App.jsx # Main app logic (scroll, load, render)
-└── main.jsx # React DOM entry
-
-
----
 
 ## 🛠️ Getting Started
 
