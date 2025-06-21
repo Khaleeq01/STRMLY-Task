@@ -1,0 +1,23 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 14px;
+}
+.nav-item {
+  text-align: center;
+}
+.add-btn {
+  font-size: 12px;
+  background: white;
+  color: black;
+  border-radius: 10%;
+  padding: 4px 12px;
+  margin-top: -4px;
+}
